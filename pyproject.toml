@@ -1,0 +1,7 @@
+[build-system]
+requires = ["setuptools>=69.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Udemy-Advanced-Python-Python-Packaging"
+version = "0.1.0"
