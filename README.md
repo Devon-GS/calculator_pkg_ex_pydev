@@ -1,5 +1,6 @@
 Informational Badges:
 
+![PyPI Downloads](https://static.pepy.tech/badge/calculator_pkg_ex_pydev)
 [![PyPI version](https://badge.fury.io/py/calculator_pkg_ex_pydev.svg)](https://badge.fury.io/py/calculator_pkg_ex_pydev)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/calculator_pkg_ex_pydev)](https://pypi.org/project/calculator_pkg_ex_pydev/)
 ![Tests](https://github.com/Devon-GS/calculator_pkg_ex_pydev/actions/workflows/tests.yml/badge.svg)
