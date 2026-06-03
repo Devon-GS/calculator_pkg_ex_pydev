@@ -9,18 +9,19 @@ from ..calculator import Calculator  # noqa Relative path
 class FileCalculator(Calculator):
 	def __init__(self,
 		path: Path = Path(__file__).parent / "nums.csv",
-	):
+	) -> None:
 		self.path = path
 		
-	def add_file(self):
-		total = None
+	def add_file(self) -> float | None:
+		total: float | None = None
+
 		with open(self.path) as f:
 			for line in f:
 				if total is None:
-					total = line
+					total = float(line)
 					continue
 				else:
-					total += line
+					total += float(line)
 		
 		return total
 			
