@@ -5,6 +5,18 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "calculator_pkg_ex_pydev"
 version = "0.1.0"
+dependencies = ["tqdm~=4.0"]
+
 
 [project.scripts]
 calculator_pkg_ex_pydev = "calculator_pkg_ex_pydev.__main__:main"
+
+[project.optional-dependencies]
+test = [
+    "tox==4.32.0",
+    "pytest==9.0.2",
+    "mypy==1.19.1",
+    "ruff==0.14.10",
+    "pre-commit==4.5.1",
+    "types-tqdm==4.67.0.20250809",
+]
