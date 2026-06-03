@@ -4,15 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "calculator_pkg_ex_pydev"
-version = "0.3.0"
+version = "0.3.1"
 requires-python = ">=3.10"
 description = "Calculator Package Demo"
 readme = "README.md"
 authors = [
-    {name = "Devon", email = "None"},
+    {name = "Devon", email = "test@gmail.com"},
 ]
 maintainers = [
-  {name = "Devon", email = "None"}
+  {name = "Devon", email = "test@gmail.com"}
 ]
 license = {file = "LICENSE.txt"}
 keywords = [
