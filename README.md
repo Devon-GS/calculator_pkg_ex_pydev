@@ -2,7 +2,7 @@ Informational Badges:
 
 [![PyPI version](https://badge.fury.io/py/calculator_pkg_ex_pydev.svg)](https://badge.fury.io/py/calculator_pkg_ex_pydev)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/calculator_pkg_ex_pydev)](https://pypi.org/project/calculator_pkg_ex_pydev/)
-![Tests](https://github.com/jfuruness/calculator_pkg_ex_pydev/actions/workflows/tests.yml/badge.svg)
+![Tests](https://github.com/Devon-GS/calculator_pkg_ex_pydev/actions/workflows/tests.yml/badge.svg)
 ![Linux](https://img.shields.io/badge/os-Linux-blue.svg)
 ![macOS Intel](https://img.shields.io/badge/os-macOS_Intel-lightgrey.svg)
 ![macOS ARM](https://img.shields.io/badge/os-macOS_ARM-lightgrey.svg)
@@ -64,7 +64,7 @@ This will install the package and all of it's python dependencies.
 
 If you want to install the project for development:
 ```bash
-git clone https://github.com/jfuruness/calculator_pkg_ex_pydev.git
+git clone https://github.com/Devon-GS/calculator_pkg_ex_pydev.git
 cd calculator_pkg_ex_pydev
 pip3 install -e ".[test]"
 pre-commit install
@@ -104,7 +104,7 @@ tox --skip-missing-interpreters
 6. Commit your changes: `git commit -am 'Add some feature'`
 7. Push to the branch: `git push origin my-new-feature`
 8. Ensure github actions are passing tests
-9. Email me at jfuruness@gmail.com if it's been a while and I haven't seen it -->
+9. Email me at Devon-GS@gmail.com if it's been a while and I haven't seen it -->
 
 ## License
 * [calculator\_pkg\_ex\_pydev](#calculator\_pkg\_ex\_pydev)
